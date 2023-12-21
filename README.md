@@ -192,3 +192,7 @@ climate:
         mode: "{{ swing_mode }}"
 
 ```
+
+### UI proposal
+<img width="558" alt="ac-ui" src="https://github.com/visiongeist/samsung-ac-windfree-home-assistant/assets/1744831/0151da81-f0ec-49d1-9965-f8a13fc9c58d">
+
