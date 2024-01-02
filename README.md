@@ -179,14 +179,14 @@ climate:
     fan_modes: ["auto","low","medium","high","turbo"]
     fan_mode_template: "{{ states('sensor.living_room_ac_fan_mode') }}"
     set_fan_mode: 
-      service: rest_command.samsung_ac_fan_mode_cool
+      service: rest_command.samsung_ac_fan_mode
       data:
         device_id: "<YOUR_DEVICE_ID>"
         mode: "{{ fan_mode }}"
     swing_modes: ["off","fixed","vertical","horizontal","all"]
     swing_mode_template: "{{ states('sensor.living_room_ac_swing_mode') }}"
     set_swing_mode: 
-      service: rest_command.samsung_ac_swing_mode_cool
+      service: rest_command.samsung_ac_swing_mode
       data:
         device_id: "<YOUR_DEVICE_ID>"
         mode: "{{ swing_mode }}"
