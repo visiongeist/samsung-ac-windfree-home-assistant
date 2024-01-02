@@ -166,6 +166,7 @@ climate:
         device_id: "<YOUR_DEVICE_ID>"
         temperature: "{{ temperature }}"
     modes:
+      - "auto"
       - "heat"
       - "dry"
       - "cool"
